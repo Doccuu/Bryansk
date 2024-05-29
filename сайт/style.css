@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+body {
+    background-color: #141111;
+}
+
+.main {
+    display: block;
+    background: url("Картинки/Фотки/main.png");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    gap: 50%;
+}
+
+.nav {
+    display: flex;
+    gap: 40px;
+    font-size: 30px;
+
+}
+
+
+a {
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.2s linear;
+    max-height: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a:hover {
+    color: #00ffb7;
+}
+
+
+
+.middle {
+    display: flex;
+    margin-top: 3%;
+    justify-content: center;
+    gap: 5%;
+}
+
+b {
+    font-size: 80px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    color: #00ffb7;
+    text-shadow: 4px 4px #000000;
+}
+
+c {
+    font-size: 30px;
+    color: #fff;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.middletext {
+    margin-top: 40px;
+}
+
+.dawnmain {
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+.book {
+    background-color: #006448;
+    border: none;
+    font-size: 40px;
+    width: 380px;
+    height: 80px;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.2s linear;
+    margin-bottom: 50px;
+}
+
+.book:hover {
+    background-color: #05b381;
+    transition: all 0.2s linear;
+
+}
+
+.link {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
+
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+
+}
+
+d {
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 25px;
+
+}
+
+.linkbutton {
+    margin-top: 40px;
+    background-color: #006448;
+    border: none;
+    font-size: 20px;
+    width: 170px;
+    height: 40px;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.2s linear;
+    margin-bottom: 50px;
+}
+
+.linkbutton:hover {
+    background-color: #05b381;
+    transition: all 0.2s linear;
+}
+
+.description {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.descriptionblocktop {
+    display: flex;
+    gap: 50px;
+
+}
+
+g {
+    margin-top: 25px;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 25px;
+
+}
+
+.descriptionblockbot {
+    display: flex;
+    gap: 50px;
+}
+
+h1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 50px;
+}
+
+h2 {
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 30px;
+}
+
+
+.timetable {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+
+}
+
+.firstarea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.secondarea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.area {
+  
+    display: flex;
+    gap: 650px;
+}
+
+.date{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.zapis{
+    background-color: #006448;
+    border: none;
+    font-size: 30px;
+    width: 280px;
+    height: 70px;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.2s linear;
+    margin-bottom: 50px;
+}
+
+.zapis:hover{
+    background-color: #05b381;
+    transition: all 0.2s linear;
+}
+
+.reviews{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   
+}
+
+.yandexreviews{
+    display: flex;
+    justify-content: center;
+  
+
+}
+
+footer{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    gap: 50%;
+}
+
+.yandexmap{
+    max-width: 500px;
+    max-height: 270px;
+    margin-bottom: 30px;
+}
+
+hr{
+    height: 1px;
+    width: 100%;
+    margin-bottom: 50px;
+}
